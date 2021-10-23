@@ -11,6 +11,7 @@
 		11A29F6227245C200011AC53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A29F6127245C200011AC53 /* ContentView.swift */; };
 		11A29F6427245C250011AC53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A29F6327245C250011AC53 /* Assets.xcassets */; };
 		11A29F6727245C250011AC53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A29F6627245C250011AC53 /* Preview Assets.xcassets */; };
+		11A29F6E27245FBB0011AC53 /* GlassMorphismWelcomePageUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A29F6D27245FBB0011AC53 /* GlassMorphismWelcomePageUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		11A29F6127245C200011AC53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11A29F6327245C250011AC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A29F6627245C250011AC53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11A29F6D27245FBB0011AC53 /* GlassMorphismWelcomePageUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassMorphismWelcomePageUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				11A29F5F27245C200011AC53 /* iOS_UI_PortfolioApp.swift */,
 				11A29F6127245C200011AC53 /* ContentView.swift */,
+				11A29F6F27245FC60011AC53 /* GlassMorphismWelcomePageUI */,
 				11A29F6327245C250011AC53 /* Assets.xcassets */,
 				11A29F6527245C250011AC53 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				11A29F6627245C250011AC53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11A29F6F27245FC60011AC53 /* GlassMorphismWelcomePageUI */ = {
+			isa = PBXGroup;
+			children = (
+				11A29F6D27245FBB0011AC53 /* GlassMorphismWelcomePageUI.swift */,
+			);
+			path = GlassMorphismWelcomePageUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A29F6227245C200011AC53 /* ContentView.swift in Sources */,
+				11A29F6E27245FBB0011AC53 /* GlassMorphismWelcomePageUI.swift in Sources */,
 				11A29F6027245C200011AC53 /* iOS_UI_PortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +289,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
